@@ -1,0 +1,19 @@
+olivera@DESKTOP-44FIE1U:~$ mkdir vjezba4
+olivera@DESKTOP-44FIE1U:~$ cd vjezba4
+olivera@DESKTOP-44FIE1U:~/vjezba4$ mkdir subfolder
+olivera@DESKTOP-44FIE1U:~/vjezba4$ echo $HOSTNAME
+DESKTOP-44FIE1U
+olivera@DESKTOP-44FIE1U:~/vjezba4$ touch $HOSTNAME
+olivera@DESKTOP-44FIE1U:~/vjezba4$ ls
+DESKTOP-44FIE1U  subfolder
+olivera@DESKTOP-44FIE1U:~/vjezba4$ echo $USER
+olivera
+olivera@DESKTOP-44FIE1U:~/vjezba4$ mv $HOSTNAME $USER
+olivera@DESKTOP-44FIE1U:~/vjezba4$ ls
+olivera  subfolder
+olivera@DESKTOP-44FIE1U:~/vjezba4$ mv $USER subfolder
+olivera@DESKTOP-44FIE1U:~/vjezba4$ ls
+subfolder
+olivera@DESKTOP-44FIE1U:~/vjezba4$ ls subfolder
+olivera
+olivera@DESKTOP-44FIE1U:~/vjezba4$ rm /home/olivera/vjezba4/subfolder/olivera

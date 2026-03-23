@@ -1,0 +1,11 @@
+olivera@DESKTOP-44FIE1U:~$ mkdir vjezba2 && cd vjezba2
+olivera@DESKTOP-44FIE1U:~/vjezba2$ touch file.txt
+olivera@DESKTOP-44FIE1U:~/vjezba2$ cp file.txt file_copy.txt
+olivera@DESKTOP-44FIE1U:~/vjezba2$ lp
+Command 'lp' not found, but can be installed with:
+sudo apt install cups-client
+olivera@DESKTOP-44FIE1U:~/vjezba2$ ls
+file.txt  file_copy.txt
+olivera@DESKTOP-44FIE1U:~/vjezba2$ rm file.txt && cd ..
+olivera@DESKTOP-44FIE1U:~$ rmdir vjezba2
+rmdir: failed to remove 'vjezba2': Directory not empty

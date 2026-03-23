@@ -1,0 +1,17 @@
+olivera@DESKTOP-44FIE1U:~$ mkdir /mnt/c/Users/Korisnik/Documents/vjezba6
+olivera@DESKTOP-44FIE1U:~$ cd /mnt/c/Users/Korisnik/Documents/vjezba6
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ touch OS_script.md notes.txt && mkdir scripts
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ ls
+OS_script.md  notes.txt  scripts
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ mv OS_script.md scripts
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ ls
+notes.txt  scripts
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ ls scripts
+OS_script.md
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ mv notes.txt todo.txt
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ ls
+scripts  todo.txt
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6$ cd scripts
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6/scripts$ rm ../todo.txt
+olivera@DESKTOP-44FIE1U:/mnt/c/Users/Korisnik/Documents/vjezba6/scripts$ ls ..
+scripts

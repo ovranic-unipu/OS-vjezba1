@@ -1,0 +1,12 @@
+olivera@DESKTOP-44FIE1U:~$ mkdir vjezba5
+olivera@DESKTOP-44FIE1U:~$ cd vjezba5
+olivera@DESKTOP-44FIE1U:~/vjezba5$ touch $RANDOM.num
+olivera@DESKTOP-44FIE1U:~/vjezba5$ ls
+30081.num
+olivera@DESKTOP-44FIE1U:~/vjezba5$ touch $RANDOM.num
+olivera@DESKTOP-44FIE1U:~/vjezba5$ ls
+30081.num  6435.num
+olivera@DESKTOP-44FIE1U:~/vjezba5$ ls -S
+30081.num  6435.num
+olivera@DESKTOP-44FIE1U:~/vjezba5$ ls -t
+6435.num  30081.num

@@ -1,0 +1,21 @@
+olivera@DESKTOP-44FIE1U:~$ mkdir vjezba3 && cd vjezba3
+olivera@DESKTOP-44FIE1U:~/vjezba3$ mkdir backup
+olivera@DESKTOP-44FIE1U:~/vjezba3$ touch notes.txt todo.txt script.sh
+olivera@DESKTOP-44FIE1U:~/vjezba3$ ls
+backup  notes.txt  script.sh  todo.txt
+olivera@DESKTOP-44FIE1U:~/vjezba3$ cp notes.txt todo.txt script.sh backup
+olivera@DESKTOP-44FIE1U:~/vjezba3$ rm script.sh
+olivera@DESKTOP-44FIE1U:~/vjezba3$ ls
+backup  notes.txt  todo.txt
+olivera@DESKTOP-44FIE1U:~/vjezba3$ echo $USER
+olivera
+olivera@DESKTOP-44FIE1U:~/vjezba3$ cd backup
+olivera@DESKTOP-44FIE1U:~/vjezba3/backup$ mkdir $USER
+olivera@DESKTOP-44FIE1U:~/vjezba3/backup$ ls
+notes.txt  olivera  script.sh  todo.txt
+olivera@DESKTOP-44FIE1U:~/vjezba3/backup$ mv notes.txt script.sh todo.txt $USER
+olivera@DESKTOP-44FIE1U:~/vjezba3/backup$ ls
+olivera
+olivera@DESKTOP-44FIE1U:~/vjezba3/backup$ ls olivera
+notes.txt  script.sh  todo.txt
+olivera@DESKTOP-44FIE1U:~/vjezba3/backup$ cd

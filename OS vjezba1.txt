@@ -1,0 +1,8 @@
+olivera@DESKTOP-44FIE1U:~$ pwd
+/home/olivera
+olivera@DESKTOP-44FIE1U:~$ ls
+olivera@DESKTOP-44FIE1U:~$ mkdir vjezba1 && cd vjezba1
+olivera@DESKTOP-44FIE1U:~/vjezba1$ touch README.md
+olivera@DESKTOP-44FIE1U:~/vjezba1$ cd..
+cd..: command not found
+olivera@DESKTOP-44FIE1U:~/vjezba1$ cd ..
